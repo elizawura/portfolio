@@ -1,0 +1,53 @@
+.layout {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 25%;
+
+}
+
+.profile {
+    background-image: url(../img/profile.png);
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.main {
+    width: 75%;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero div {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: max-content;
+}
